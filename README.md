@@ -46,7 +46,7 @@ To install PyTorch, run:
 
 ```bash
 !pip install torch
-
+```
 ## **Instructions**
 
 1. **Load the dataset:** Make sure you have the `AMZN.csv` file in your working directory.
