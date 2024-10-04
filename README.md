@@ -74,6 +74,4 @@ You can also find the R² score, which measures how well the model fits the test
 - Clone the repository and ensure all dependencies are installed.
 - Upload your dataset (`AMZN.csv`) and run the script.
 
-## **License**
 
-This project is licensed under the MIT License. See the LICENSE file for details.
