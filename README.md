@@ -46,3 +46,34 @@ To install PyTorch, run:
 
 ```bash
 !pip install torch
+
+## **Instructions**
+
+1. **Load the dataset:** Make sure you have the `AMZN.csv` file in your working directory.
+2. **Run the code:** The script reads the dataset, preprocesses the data, builds and trains the LSTM model, and outputs predictions along with evaluation metrics and plots.
+3. **Training the model:** The model is trained for a default of 10 epochs using a batch size of 16. You can adjust these hyperparameters in the code.
+4. **Evaluate the model:** The model generates plots of actual vs. predicted stock prices for both training and testing data, and computes the R² score.
+
+## **Model Structure**
+
+- **Input**: Sequences of stock closing prices with a lookback period of 7 days.
+- **Hidden Layers**: LSTM layers with a hidden size of 4 and one stacked layer.
+- **Output**: One fully connected layer predicting the closing price for the next day.
+
+## **Example Results**
+
+The following plots are generated:
+
+- **Training Data**: A comparison of the actual vs. predicted closing prices for the training set.
+- **Testing Data**: A comparison of the actual vs. predicted closing prices for the testing set.
+
+You can also find the R² score, which measures how well the model fits the test data.
+
+## **Usage**
+
+- Clone the repository and ensure all dependencies are installed.
+- Upload your dataset (`AMZN.csv`) and run the script.
+
+## **License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
